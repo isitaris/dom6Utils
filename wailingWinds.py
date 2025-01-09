@@ -964,7 +964,7 @@ def plot_varyingSquadSize_setMorale_setEnchantments_squadRout(unitDensity = 3, n
                     rainStatus = "ON" if bloodRainActive == 1 else "OFF"
 
                     pltTitle = "squad density" + str(unitDensity) + ", morale" + str(unitMorale) + " - BloodRain" + rainStatus + ", WailingWinds " + wailingStatus
-                    pdfName = "MoralePlays_MoraleComparison_squad_density" + str(unitDensity) + "_morale" + str(unitMorale) + "___BloodRain_" + rainStatus + "_WailingWinds_" + wailingStatus
+                    pdfName = "MoralePlays_squadSizeComparison_squad_density" + str(unitDensity) + "_morale" + str(unitMorale) + "___BloodRain_" + rainStatus + "_WailingWinds_" + wailingStatus
 
                     plotHistograms_squad(nDistribs, routedRatioDistrib_collection, collectionLegend, pltTitle, pdfName, "longCollection")
 
